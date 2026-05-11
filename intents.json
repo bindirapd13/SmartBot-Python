@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there!",
+        "Hey! Nice to meet you.",
+        "Welcome! What would you like to know?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I am an AI Chatbot created using Python.",
+        "You can call me SmartBot.",
+        "I am your virtual assistant."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "Are you fine?",
+        "How is your day?"
+      ],
+      "responses": [
+        "I am doing great!",
+        "I'm fine. Thanks for asking!",
+        "Everything is running smoothly."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "Help",
+        "I need support"
+      ],
+      "responses": [
+        "Of course! Tell me your problem.",
+        "I am here to help you.",
+        "Sure! What do you need assistance with?"
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "What can you do?",
+        "Your skills",
+        "What are your features?"
+      ],
+      "responses": [
+        "I can answer simple questions and chat with users.",
+        "I can provide automated responses.",
+        "I am designed for basic conversations."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Have a great day!"
+      ]
+    }
+  ]
+}
